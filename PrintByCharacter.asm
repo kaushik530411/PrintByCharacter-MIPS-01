@@ -7,3 +7,6 @@ main:
 	li $v0, 1  #  Print by Intezer
 	add $a0, $a0, -64  #  Stores the intezer 0
 	syscall
+
+	add $a0, $a0, 2  #  Store the intezer 2
+	syscall
