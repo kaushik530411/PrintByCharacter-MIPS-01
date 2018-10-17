@@ -37,3 +37,6 @@ main:
 
 	add $a0, $a0, 28  #  Stores the character 'i', decimal value = 105
 	syscall
+
+	add $a0, $a0, 10  #  Stores the character 's', decimal value = 115
+	syscall
