@@ -74,6 +74,8 @@ main:
 	add $a0, $a0, 1  #  Stores the character 'i', decimal value = 105
 	syscall
 
-	
 	add $a0, $a0, 2  #  Stores the character 'k', decimal value = 107
+	syscall
+	
+	li $v0, 10  #  Syscall code updated to trigger exits
 	syscall
