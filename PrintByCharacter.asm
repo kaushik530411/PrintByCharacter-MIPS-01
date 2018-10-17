@@ -22,3 +22,6 @@ main:
 
 	add $a0, $a0, -4  #  Stores the intezer 1
 	syscall
+
+	add $a0, $a0, 7  #  Stores the intezer 8
+	syscall
