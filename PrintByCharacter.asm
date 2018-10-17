@@ -52,3 +52,6 @@ main:
 	
 	add $a0, $a0, -53  #  Stores the character ',', decimal value = 44
 	syscall
+	
+	add $a0, $a0 -12  #  Stores the white space characer ' ', decimal value = 32
+	syscall
