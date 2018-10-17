@@ -49,3 +49,6 @@ main:
 
 	add $a0, $a0, -17  #  Stores the character 'a', decimal value = 97
 	syscall
+	
+	add $a0, $a0, -53  #  Stores the character ',', decimal value = 44
+	syscall
