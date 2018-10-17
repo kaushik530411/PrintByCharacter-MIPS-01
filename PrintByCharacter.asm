@@ -31,3 +31,6 @@ main:
 	li $v0, 11  #  Print by character
 	add $a0, $a0, 2  #  Line Feet character stored, decimal value = 10
 	syscall
+
+	add $a0, $a0, 67  #  Stores the character 'M', decimal value = 77
+	syscall
