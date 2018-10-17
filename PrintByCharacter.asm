@@ -70,3 +70,6 @@ main:
 	
 	add $a0, $a0, -11  #  Stores the character 'h', decimal value = 104
 	syscall
+	
+	add $a0, $a0, 1  #  Stores the character 'i', decimal value = 105
+	syscall
