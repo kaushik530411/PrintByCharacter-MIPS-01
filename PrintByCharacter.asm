@@ -58,3 +58,6 @@ main:
 	
 	add $a0, $a0, 43  #  Stores the character 'K', decimal value = 75
 	syscall
+	
+	add $a0, $a0, 22  #  Stores the character 'a', decimal value = 97
+	syscall
