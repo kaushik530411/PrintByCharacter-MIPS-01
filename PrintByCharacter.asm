@@ -10,3 +10,6 @@ main:
 
 	add $a0, $a0, 2  #  Store the intezer 2
 	syscall
+
+	add $a0, $a0, 6  #  Stores the intezer 8
+	syscall
