@@ -61,3 +61,6 @@ main:
 	
 	add $a0, $a0, 22  #  Stores the character 'a', decimal value = 97
 	syscall
+	
+	add $a0, $a0, 20  #  Stores the character 'u', decimal value = 117
+	syscall
